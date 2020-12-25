@@ -17,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  background(1600,400);
+  background("black");
   drawSprites();
   if(wall.x - bullet.x < (bullet.width+wall.width)/2){
     bullet.velocityX = 0;
